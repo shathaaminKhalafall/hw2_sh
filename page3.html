@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music is life</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+
+
+.navbar a {
+float: left;
+display: block;
+color:aquamarine;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.navbar a.right {
+float: right;
+}
+
+
+.navbar a:hover {
+background-color: rgb(194, 128, 128);
+color: black;
+}
+
+
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+
+.imgDiv {
+flex: 50%;
+background-color: #f1f1f1;
+padding: 20px;
+}
+
+
+.imgcontent {
+flex: 50%;
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+font-family: ui-sans-serif;
+font-size: 30px;
+
+}
+
+.innerDiv{
+padding: 20px;
+border:1px solid;
+border-color:darksalmon;
+height:500px;
+}
+
+
+.buyDiv{
+display: flex;
+flex-wrap: wrap;
+flex: 100%;
+padding: 20px;
+padding-left: 45%;
+}
+
+
+button{
+background-color:#008000b3;
+color:white;
+height:40px;
+width:120px;
+}
+
+
+.fakeimg {
+background-color: rgb(192, 154, 243);
+width: 100%;
+padding: 20px;
+}
+
+
+.footer {
+padding: 20px;
+text-align: center;
+background: rgb(146, 117, 117);
+}
+
+button{
+float:right;
+height:40px;
+}
+
+
+@media screen and (max-width: 700px) {
+.row {   
+flex-direction: column;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+
+
+<div class="navbar">
+    <a href="page2.html">Middle East Music CD</a> 
+    <a href="page2.html">English music CD</a>
+    <a href="page2.html">Latin music CD</a>
+    <a href="page2.html">Hawaiian Islands music CD</a> 
+    <a href="page1.html" class="right">Home Page</a> 
+
+</div>
+
+
+<div class="row">
+<div class="imgDiv">
+<div class="fakeimg" style="height:500px;">path1</div>
+</div>
+<div class="imgcontent">
+<div class="innerDiv">
+<label>Music name</label></br></br>
+<label>Lyrics writer: </label><span> amir taeima</span></br></br>
+<label>Song movie: </label><span> quddam alnaas</span></br></br>
+<label>Playback singer: </label><span>  Mohammad Hamaki </span></br></br>
+<label>Song length: </label><span> 3:50 minutes </span></br></br>
+<label>Market Price: </label><span>10 $ </span></br></br>
+
+</div>
+</div>
+</div>
+
+<div class="buyDiv">
+<button>Buy CD</button>
+</div>
+
+<div class="footer">
+<h2>Mymusicsh&copy;music</h2>
+</div>
+
+</body>
+</html>
